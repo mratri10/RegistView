@@ -1,9 +1,10 @@
 .header {
-  height: 100%;
+  height: 10vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
   background-color: aquamarine;
+  position: fixed;
 
   .logo-container {
     height: 100%;

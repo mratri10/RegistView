@@ -4,7 +4,7 @@ import { createStructuredSelector } from 'reselect';
 import Header from './components/header/header.components';
 import Profile from './page/profile/profile.page';
 import Register from './page/register/register.page';
-
+import "./App.css";
 class App extends Component {
   constructor(props) {
     super(props);
@@ -23,7 +23,7 @@ class App extends Component {
         <Header />
         <Switch>
           <Route exact path='/' component={Register}/>
-          <Route exact path='/' component={Profile}/>
+          <Route path='/profile' component={Profile}/>
         </Switch>
       </div>
     );
